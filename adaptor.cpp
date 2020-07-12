@@ -50,12 +50,7 @@ namespace lanms_adaptor {
 
 }
 
-PYBIND11_PLUGIN(adaptor) {
-	py::module m("adaptor", "NMS");
-
+PYBIND11_MODULE(lanms, m) {
 	m.def("merge_quadrangle_n9", &lanms_adaptor::merge_quadrangle_n9,
-			"merge quadrangels");
-
-	return m.ptr();
+			R"pbdoc(merge quadrangels)pbdoc");
 }
-

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "clipper/clipper.hpp"
+#include "include/clipper/clipper.hpp"
 
 // locality-aware NMS
 namespace lanms {
