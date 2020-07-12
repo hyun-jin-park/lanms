@@ -1,3 +1,5 @@
+*change setup.py to install in windows 10 
+
 Locality-Aware Non-Maximum Suppression (LANMS)
 ==============================================
 
@@ -27,3 +29,4 @@ Installation
 .. code-block:: bash
 
     pip3 install lanms
+
